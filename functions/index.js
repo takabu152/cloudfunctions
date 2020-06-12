@@ -23,8 +23,6 @@ const getWeatherFromApi = async (lat,lon) =>{
   return result;
 };
 
-
-
 const getLocalInfoApi = async (keyword) => {
 
   const requestUrl = `https://map.yahooapis.jp/search/local/V1/localSearch?appid=${functions.config().yahooservice.key}&ac=40133&output=json&query=${encodeURIComponent(keyword)}&results=50$detail=full`;
