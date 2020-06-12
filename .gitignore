@@ -65,4 +65,4 @@ node_modules/
 .env
 
 # firebase 環境変
-functions/.runtimeconfig.json
+.runtimeconfig.json
